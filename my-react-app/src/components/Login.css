@@ -1,0 +1,154 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: url('../assets/outer-space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.login-card {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 380px;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo-container {
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Logo Text Styles */
+.logo-wrapper {
+    display: flex;
+    align-items: baseline;
+    /* Align text on baseline */
+    line-height: 1;
+    margin-bottom: 2px;
+}
+
+.logo-bill {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Clean sans-serif */
+    font-weight: 500;
+    /* Medium weight */
+    font-size: 3rem;
+    color: #28a745;
+    /* Green */
+    letter-spacing: -1px;
+}
+
+.logo-dme {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    /* Bold */
+    font-size: 3rem;
+    color: #000;
+    /* Black */
+    font-style: italic;
+    /* Slight italic look in the image */
+    margin-left: 2px;
+}
+
+.logo-subtitle {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+    /* Grey */
+    margin-top: 0;
+    width: 100%;
+    text-align: right;
+    /* Aligns more to the right under DME usually, or center */
+    padding-right: 15px;
+    /* Adjust based on visual */
+}
+
+/* Input Styles */
+.input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* Slight radius */
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.input-icon-wrapper {
+    background-color: #eee;
+    /* Light grey background for icon */
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ddd;
+    color: #555;
+    width: 50px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #555;
+    outline: none;
+}
+
+.login-input::placeholder {
+    color: #aaa;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #00802b;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #66cc66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.2s;
+}
+
+.login-button:hover {
+    background-color: #55bb55;
+}
